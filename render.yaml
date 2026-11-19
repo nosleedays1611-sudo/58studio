@@ -1,0 +1,20 @@
+services:
+  - type: web
+    name: ilovebr58-studio
+    runtime: node
+    plan: starter
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: STUDIO_URL
+        value: https://studio.ilovebr58.xyz
+      - key: STORE_API_URL
+        value: https://ilovebr58.xyz
+      - key: ADMIN_USERNAME
+        sync: false
+      - key: ADMIN_PASSWORD
+        sync: false
+      - key: STUDIO_SHARED_SECRET
+        sync: false

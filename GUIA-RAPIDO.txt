@@ -1,0 +1,20 @@
+ILOVEBR58 STUDIO — V3 (HTML ÚNICO)
+
+A INTERFACE TODA ESTÁ EM: public/index.html
+- CSS embutido no <style>
+- JavaScript embutido no <script>
+- Login + painel administrativo no MESMO HTML
+
+Outros arquivos:
+- server.js: backend de login, sessão e conexão segura com a loja
+- public/assets/: imagens estáticas da identidade visual
+- .env.example: modelo de variáveis (não publicar senhas reais!)
+
+INSTALAÇÃO
+1. Atualize SOMENTE o projeto do Studio independente.
+2. Preserve ADMIN_USERNAME, ADMIN_PASSWORD, STUDIO_SHARED_SECRET, STUDIO_URL e STORE_API_URL nas variáveis da ShardCloud.
+3. Na loja principal, mantenha o pacote de conexão Studio/API já instalado.
+4. Inicie o projeto com npm start e acesse /login.
+5. Não use hospedagem estática para esse projeto. É necessário Node.js.
+
+Crédito mantido: Desenvolvido por: seu filho kk
